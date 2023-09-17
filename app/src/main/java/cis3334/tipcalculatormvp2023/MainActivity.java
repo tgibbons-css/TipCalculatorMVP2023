@@ -12,6 +12,11 @@ import android.widget.TextView;
 
 import java.text.NumberFormat;
 
+/**
+ * Poor example of manually implementing a MVP model in Android.
+ * You should not set up apps this way, use ViewModel instead
+ * This version will often fail on screen rotation
+ */
 public class MainActivity extends AppCompatActivity  implements updateViewInterface {
 
     EditText editTextBill;
